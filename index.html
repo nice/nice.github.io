@@ -1,1 +1,31 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>@nice</title>
+    <style>
+     .content {
+       width: 200px;
+       height: 75px;
+       background-color: "#ffffff";
+       position: absolute; /*Can also be `fixed`*/
+       left: 0;
+       right: 0;
+       top: 0;
+       bottom: 0;
+       margin: auto;
+       /*Solves a problem in which the content is being cut when the div is smaller than its' wrapper:*/
+       max-width: 100%;
+       max-height: 100%;
+       overflow: auto;
+       text-align: center;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      Jayaram
+      <a href="http://github.com/nice">http://github.com/nice</a>
+    </div>
+  </body>
+</html>
